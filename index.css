@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+body, p {
+  margin: 0
+}
+#container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+#container > div {
+  display: flex;
+}
+
+#playground {
+  width: 80%;
+  height: fit-content;
+  flex-wrap: wrap;
+  background-image: url(./img/Easy\ Game\ Logo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#controlSection {
+  width: 20%;
+  flex-direction: column;
+}
+
+#point {
+  font-size: 36px;
+  line-height: 42px;
+  padding: 8px;
+  display: flex;
+}
+#point > p:first-child{
+  margin-right: 4px;
+  font-style: italic;
+}
+#point > p:last-child{
+  font-size: 40px;
+  color: #eecada;
+  font-weight: bold;
+}
+
+.square {
+  width: 200px;
+  height: 200px;
+  border: 0.5px solid;
+  background-color: #eecada;
+}
+
+.square > img {
+  width: 200px;
+  height: 200px;
+}
