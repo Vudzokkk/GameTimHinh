@@ -78,7 +78,7 @@ const handleClickSquare = ({ target }) => {
         return displayModal('YOU WIN in level: ' + level + ' !!!<br>Do you wanna play again???', [
           {
             actionBtn: 'renderSquare()',
-            textBtn: 'PLAY AGAIN',
+            textBtn: 'Kéo áo lên, thứ Vũ cần là nụ cười của em',
           },
         ]);
       }
