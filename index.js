@@ -99,10 +99,10 @@ const renderSquare = () => {
   level = parseInt(getEl('select[name="level"]').value);
   const age = parseInt(getEl('select[name="age"]').value);
   if (!level || !age)
-    return displayModal('PLEASE CHOOSE BOTH LEVEL AND YOUR AGE BEFORE START GAME', [
+    return displayModal('Lựa chọn cấp độ và độ tuổi đi zợ iu :3 ', [
       {
         actionBtn: 'hideModal()',
-        textBtn: 'I understand',
+        textBtn: 'Ok, Vũ đáng iu cute phô mai que,
       },
     ]);
   srcImg = age > 16 ? SRC_ForOver16 : SRC_Kids;
